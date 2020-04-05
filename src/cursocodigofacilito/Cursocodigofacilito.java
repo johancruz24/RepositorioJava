@@ -16,10 +16,26 @@ public class Cursocodigofacilito {
      */
     public static void main(String[] args) {
         
-        System.out.println("Primer repositorio en GitHub");
+        System.out.println("Solución para el ejercicio 1");
+        calificacion();
         // TODO code application logic here
+       System.out.println("Primer repositorio en GitHub");
     }
     
-
+public static void calificacion(){
     
+    int nota = 60;
+    
+    if(nota > 70){
+    
+        System.out.println("Aprobado");
+        
+    }else{
+    
+        System.out.println("Reprobado");
+    }
+    
+    
+
+}   
 }
