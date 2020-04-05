@@ -21,6 +21,9 @@ public class Cursocodigofacilito {
         // TODO code application logic here
        System.out.println("Solución para el ejercicio 2");
        orden();
+       
+       System.out.println("Solución para el ejercicio 3");
+       tabla();
     }
     
 public static void calificacion(){
@@ -71,5 +74,18 @@ public static void orden(){
     medio = (num1+num2+num3)-(mayor+menor);
     System.out.println(menor+"," +medio+ ","+mayor);
     
+}
+
+private static void tabla(){
+
+    int i;
+    int resultado;
+    for(i = 1 ;i < 10; i ++){
+    
+    resultado = 9 * i;
+    
+    System.out.println("9 * " +i+ "="+resultado);    
+    
+    }
 }
 }
