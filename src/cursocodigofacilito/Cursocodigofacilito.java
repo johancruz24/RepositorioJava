@@ -19,7 +19,8 @@ public class Cursocodigofacilito {
         System.out.println("Solución para el ejercicio 1");
         calificacion();
         // TODO code application logic here
-       System.out.println("Primer repositorio en GitHub");
+       System.out.println("Solución para el ejercicio 2");
+       orden();
     }
     
 public static void calificacion(){
@@ -35,7 +36,40 @@ public static void calificacion(){
         System.out.println("Reprobado");
     }
     
-    
+}
 
-}   
+public static void orden(){
+
+    int num1 = 9, num2 = 50, num3 = 4;
+    int mayor=0, menor=0, medio=0;
+    
+    if(num1 > num2 && num1 > num3){
+    
+        mayor=num1;
+       
+    }else if(num2>num1 && num2>num3){
+    
+        mayor=num2;
+    
+    }else{
+    
+        mayor=num3;
+    }
+
+    if(num1 < num2 && num1<num3){
+    
+        menor=num1;
+        
+    }else if(num2 < num1 && num2 < num3){
+    
+        menor=num2;
+    }else{
+    
+        menor=num3;
+    }
+    
+    medio = (num1+num2+num3)-(mayor+menor);
+    System.out.println(menor+"," +medio+ ","+mayor);
+    
+}
 }
