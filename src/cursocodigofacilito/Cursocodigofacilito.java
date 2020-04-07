@@ -24,6 +24,9 @@ public class Cursocodigofacilito {
        
        System.out.println("Solución para el ejercicio 3");
        tabla();
+       
+       System.out.println("Solución para el ejercicio 3");
+       consola();
     }
     
 public static void calificacion(){
@@ -87,5 +90,21 @@ private static void tabla(){
     System.out.println("9 * " +i+ "="+resultado);    
     
     }
+}
+
+private static void consola(){
+
+    String  mensaje ="*";
+    for(int i = 1; i < 10 ;i ++){
+    
+        for(int j = 1; j < i;j ++){
+        
+        System.out.print(mensaje);
+        }
+        
+        System.out.println("");
+    }
+    
+
 }
 }
