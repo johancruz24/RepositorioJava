@@ -36,6 +36,9 @@ public class Cursocodigofacilito {
 
        System.out.println("Solución para el ejercicio 7");
        primo();
+       
+       System.out.println("Solución para el ejercicio 8");
+       multiplo();
 
     }
     
@@ -176,6 +179,23 @@ private static void primo(){
     }
 
 
+}
+
+public static void multiplo(){
+
+    int multiplo = 2;
+    
+    
+    for(int i = 1; i <= 4570; i++){
+        
+        if(i % multiplo == 0){
+            
+            System.out.println(i);
+        
+        }
+
+}    
+    
 }
 
 }
