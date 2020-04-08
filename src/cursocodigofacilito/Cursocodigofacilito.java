@@ -39,10 +39,14 @@ public class Cursocodigofacilito {
        
        System.out.println("Solución para el ejercicio 8");
        multiplo();
+       
+       System.out.println("Solución para el ejercicio 9");
+       factorial();
+       
 
     }
     
-public static void calificacion(){
+private static void calificacion(){
     
     int nota = 60;
     
@@ -57,7 +61,7 @@ public static void calificacion(){
     
 }
 
-public static void orden(){
+private static void orden(){
 
     int num1 = 9, num2 = 50, num3 = 4;
     int mayor=0, menor=0, medio=0;
@@ -181,7 +185,7 @@ private static void primo(){
 
 }
 
-public static void multiplo(){
+private static void multiplo(){
 
     int multiplo = 2;
     
@@ -194,8 +198,29 @@ public static void multiplo(){
         
         }
 
-}    
+}
     
 }
+    
+private static void factorial(){
+    
+    int num = 8;
+    int fact = 1;
+    
+    for(int i = num; i > 0; i--){
+    
+    fact =fact * i;  
+    
+    
+    }
+    
+    System.out.println("El factorial para el número " +num+ " es " +fact);
+    
+    
+}
+    
+    
+
+    
 
 }
