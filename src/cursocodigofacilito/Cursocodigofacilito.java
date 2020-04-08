@@ -33,11 +33,8 @@ public class Cursocodigofacilito {
        
        System.out.println("Solución para el ejercicio 6");
        fibonacci();
-<<<<<<< HEAD
        System.out.println("Solución para el ejercicio 7");
        primo();
-=======
->>>>>>> master
     }
     
 public static void calificacion(){
@@ -141,7 +138,6 @@ private static void fibonacci(){
 
     int suma=1, num1=0, num2=1;
     for(int i = 1; i < 10; i++){
-<<<<<<< HEAD
     
         System.out.print(suma+",");
         
@@ -176,17 +172,6 @@ private static void primo(){
         System.out.println("El " +num+ " es primo.");
     }
 
-=======
-    
-        System.out.print(suma+",");
-        
-        suma = num1 + num2;
-        num1 = num2;
-        num2 = suma;
-
-    }
-     System.out.println("");
->>>>>>> master
 }
 
 }
