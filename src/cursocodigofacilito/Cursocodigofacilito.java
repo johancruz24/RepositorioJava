@@ -50,6 +50,8 @@ public class Cursocodigofacilito {
     }
     
 private static void calificacion(){
+    //Mostrar en consola el mensaje de "Aprobado" en caso la calificación de un
+    //alumno sea mayor igual a 70,en caso contrario mostrar el mensaje "Reprobado".
     
     int nota = 60;
     
@@ -65,7 +67,8 @@ private static void calificacion(){
 }
 
 private static void orden(){
-
+    //Dado 3 números enteros, mostrar en consola los números de forma ascendente,
+    //de menor a mayor. Ejemplo Números = 9, 50, 4 Salida = 4, 9, 50
     int num1 = 9, num2 = 50, num3 = 4;
     int mayor=0, menor=0, medio=0;
     
@@ -100,7 +103,7 @@ private static void orden(){
 }
 
 private static void tabla(){
-
+    //Imprimir en consola la tabla de multiplicar del número 9.
     int i;
     int resultado;
     for(i = 1 ;i < 10; i ++){
@@ -113,7 +116,13 @@ private static void tabla(){
 }
 
 private static void consola(){
-
+    //Replicar la siguiente salida en consola.
+    //*
+    //**
+    //***
+    //****
+    //*****
+    
     String  mensaje ="*";
     for(int i = 1; i < 10 ;i ++){
     
@@ -129,7 +138,14 @@ private static void consola(){
 }
 
 private static void consola2(){
-
+    //Replicar la siguiente salida en consola.
+    //    *
+    //   ***
+    //  *****
+    // *******
+    //*********
+    
+    
     String  mensaje ="*";
     
     for (int i = 1; i < 10; i += 2) {
@@ -147,7 +163,8 @@ private static void consola2(){
 }
 
 private static void fibonacci(){
-
+    //Imprimir en consola los primero diez números de la serie Fibonacci.
+    
     int suma=1, num1=0, num2=1;
     for(int i = 1; i < 10; i++){
 
@@ -163,7 +180,7 @@ private static void fibonacci(){
 }
 
 private static void primo(){
-
+    //Dado un número saber si este es primo o no.
     int num = 7, aux = 0;
     
     for(int i = 1; i < (num +1); i++){
@@ -189,6 +206,8 @@ private static void primo(){
 }
 
 private static void multiplo(){
+    //Imprimir en consola todos los números múltiplos de 2. El ciclo finalizará
+    //cuando el último múltiplo sea menor a 4570
 
     int multiplo = 2;
     
@@ -206,6 +225,7 @@ private static void multiplo(){
 }
     
 private static void factorial(){
+    //Dado un número entero obtener su factorial.
     
     int num = 8;
     int fact = 1;
@@ -223,7 +243,7 @@ private static void factorial(){
 }
 
 private static void constante(){
-    
+    //Crear un programa el cual nos permita conocer el valor de la constante e
     float fact = 1;
     float e = 1;
     int valor = 10;
