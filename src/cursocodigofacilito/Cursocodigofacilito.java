@@ -43,6 +43,9 @@ public class Cursocodigofacilito {
        System.out.println("Solución para el ejercicio 9");
        factorial();
        
+       System.out.println("Solución para el ejercicio 10");
+       constante();
+       
 
     }
     
@@ -218,9 +221,30 @@ private static void factorial(){
     
     
 }
+
+private static void constante(){
+    
+    float fact = 1;
+    float e = 1;
+    int valor = 10;
+
+    for(int i = 1; i <= valor; i++){
+      
+         fact = 1;
+         for(int j = 1; j <= i; j++){      
+    
+            fact =fact * j; 
+            
+         }
+         e = e + (1/fact);      
+
+    }
+    
+    System.out.println("El valor de la constante de e cuando n es " +valor+ " es igual a " +e);
+   
     
     
 
-    
+}    
 
 }
